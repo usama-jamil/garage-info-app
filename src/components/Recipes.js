@@ -12,7 +12,7 @@ const Recipes = props => (
                         <div className="recipes__box">
                             <img className="recipe__box-img" src={recipe.image_url} alt={recipe.title} />
                             <div className="recipe__text">
-                                <h5 className="recipe__title">{recipe.title.length < 20? recipe.title: `${recipe.title.substring(0,25)}...` }</h5>
+                                <h5 className="recipe__title">{recipe.title.length < 20 ? recipe.title : `${recipe.title.substring(0, 25)}...`}</h5>
                                 <p className="recipes__subtile">
                                     Publisher:<span>
                                         {recipe.publisher}
@@ -20,7 +20,10 @@ const Recipes = props => (
                                 </p>
                             </div>
                             <button className="recipe_buttons">
-                            <Link to={{ pathname: `/recipe/${recipe.recipe_id}`, state:`${recipe.title}`}}> View Recipe
+                                <Link to={{
+                                    pathname: `/recipe/${recipe.recipe_id}`,
+                                    state: { recipe: recipe.title }
+                                }}> View Recipe
                             </Link>
                             </button>
                         </div>
