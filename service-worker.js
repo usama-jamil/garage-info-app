@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/garage-info-app/precache-manifest.98b24463ea8d0e401fbf34f282ab1bb0.js"
+  "/garage-info-app/precache-manifest.00042a340d7b7ebd09da2e17f4643749.js"
 );
 
 workbox.clientsClaim();
