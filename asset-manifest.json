@@ -1,15 +1,15 @@
 {
-  "main.css": "/garage-information-webapp/static/css/main.c1d50506.chunk.css",
-  "main.js": "/garage-information-webapp/static/js/main.68b02dd0.chunk.js",
-  "main.js.map": "/garage-information-webapp/static/js/main.68b02dd0.chunk.js.map",
-  "static/css/1.a3821e50.chunk.css": "/garage-information-webapp/static/css/1.a3821e50.chunk.css",
-  "static/js/1.b4ba9e8f.chunk.js": "/garage-information-webapp/static/js/1.b4ba9e8f.chunk.js",
-  "static/js/1.b4ba9e8f.chunk.js.map": "/garage-information-webapp/static/js/1.b4ba9e8f.chunk.js.map",
-  "runtime~main.js": "/garage-information-webapp/static/js/runtime~main.7d4cc6b6.js",
-  "runtime~main.js.map": "/garage-information-webapp/static/js/runtime~main.7d4cc6b6.js.map",
-  "static/css/1.a3821e50.chunk.css.map": "/garage-information-webapp/static/css/1.a3821e50.chunk.css.map",
-  "static/css/main.c1d50506.chunk.css.map": "/garage-information-webapp/static/css/main.c1d50506.chunk.css.map",
-  "index.html": "/garage-information-webapp/index.html",
-  "precache-manifest.347b6a1142c6f303c804f87182657a17.js": "/garage-information-webapp/precache-manifest.347b6a1142c6f303c804f87182657a17.js",
-  "service-worker.js": "/garage-information-webapp/service-worker.js"
+  "main.css": "/garage-info-webapp/static/css/main.c1d50506.chunk.css",
+  "main.js": "/garage-info-webapp/static/js/main.711d546f.chunk.js",
+  "main.js.map": "/garage-info-webapp/static/js/main.711d546f.chunk.js.map",
+  "static/css/1.a3821e50.chunk.css": "/garage-info-webapp/static/css/1.a3821e50.chunk.css",
+  "static/js/1.b4ba9e8f.chunk.js": "/garage-info-webapp/static/js/1.b4ba9e8f.chunk.js",
+  "static/js/1.b4ba9e8f.chunk.js.map": "/garage-info-webapp/static/js/1.b4ba9e8f.chunk.js.map",
+  "runtime~main.js": "/garage-info-webapp/static/js/runtime~main.f8f066c4.js",
+  "runtime~main.js.map": "/garage-info-webapp/static/js/runtime~main.f8f066c4.js.map",
+  "static/css/1.a3821e50.chunk.css.map": "/garage-info-webapp/static/css/1.a3821e50.chunk.css.map",
+  "static/css/main.c1d50506.chunk.css.map": "/garage-info-webapp/static/css/main.c1d50506.chunk.css.map",
+  "index.html": "/garage-info-webapp/index.html",
+  "precache-manifest.07a89201ff7853ba26c91fcf80d3bd7a.js": "/garage-info-webapp/precache-manifest.07a89201ff7853ba26c91fcf80d3bd7a.js",
+  "service-worker.js": "/garage-info-webapp/service-worker.js"
 }
