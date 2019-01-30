@@ -16,7 +16,7 @@ button:focus {
 }
 
 .App {
-  text-align: center;
+ text-align: center
 }
 
 .App-header {
@@ -88,7 +88,7 @@ button:focus {
 }
 
 .form__button {
-  border: solid 2px #e74c3c;
+  border: solid 2px #3c86e7;
   background: transparent;
   padding: 0.2rem 0.9rem;
   margin: 0 0.2rem;
@@ -97,6 +97,18 @@ button:focus {
   text-transform: uppercase;
   font-weight: 500;
   margin-left: 0.7rem;
+}
+.login__button {
+  border: solid 2px #3c86e7;
+  background: transparent;
+  padding: 0.2rem 0.9rem;
+  margin: 0 0.2rem;
+  border-radius: 1px;
+  font-size: 1rem;
+  text-transform: uppercase;
+  font-weight: 500;
+  margin-left: 0.7rem;
+  text-align-last: right;
 }
 
 input[type="text"] { 

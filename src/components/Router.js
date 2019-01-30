@@ -3,6 +3,7 @@ import { BrowserRouter, Route, Switch } from 'react-router-dom';
 
 import App from '../App'
 import Recipe from './Recipe'
+import Login from './Login';
 
 
 const  Router = ()=>(
@@ -10,6 +11,7 @@ const  Router = ()=>(
     <Switch>
         <Route path="/" component={App} exact/>
         <Route path="/recipe/:id" component={Recipe}/>
+        <Route path="/login" component={Login}/>
     </Switch>
 </BrowserRouter>
 );
