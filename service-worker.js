@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/garage-info-webapp/precache-manifest.07a89201ff7853ba26c91fcf80d3bd7a.js"
+  "/garage-info-app/precache-manifest.98b24463ea8d0e401fbf34f282ab1bb0.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/garage-info-webapp/index.html", {
+workbox.routing.registerNavigationRoute("/garage-info-app/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
