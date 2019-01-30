@@ -2,7 +2,7 @@
   "name": "my-book-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://usama-jamil.github.io/garage-info-webapp/",
+  "homepage": "https://usama-jamil.github.io/garage-info-app/",
   "dependencies": {
     "bootstrap": "^4.2.1",
     "gh-pages": "^2.0.1",
