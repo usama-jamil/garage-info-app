@@ -12,6 +12,7 @@ const  Router = ()=>(
         <Route path="/" component={App} exact/>
         <Route path="/recipe/:id" component={Recipe}/>
         <Route path="/login" component={Login}/>
+        <Route path="/signup"component={s}
     </Switch>
 </BrowserRouter>
 );
