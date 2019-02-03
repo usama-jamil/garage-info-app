@@ -12,8 +12,9 @@ class Recipe extends Component {
     const title = this.props.location.state.recipe;
     console.log(title);
     const searchRequest = await fetch(
-      `https://cors-anywhere.herokuapp.com/https://www.food2fork.com/api/search?key=${API_KEY}&q=${title}`
+      `https://www.food2fork.com/api/search?key=${API_KEY}&q=${title}`
     );
+//https://cors-anywhere.herokuapp.com/            FOR API FETCH IN  LOCAL HOST
 
     const res = await searchRequest.json();
     console.log(res);
