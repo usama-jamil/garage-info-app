@@ -2,15 +2,29 @@ import React, { Component } from "react";
 import { Link } from "react-router-dom";
 
 class Login extends Component {
+  constructor() {
+    super();
+    this.Validate = this.Validate.bind(this);
+  }
   state = {
-    Email: "",
-    Password: ""
+    email: "",
+    password: "",
+    isLogin: false
   };
 
   handleChange(event) {
     this.setState({ [event.target.name]: event.target.value });
   }
-  Validate() {}
+  Validate() {
+    const fakeEmail = "usamajamil006@gmail.com";
+    const fakePassword = "asd";
+
+    const { email, password } = this.state;
+    //if  email password not found
+    if (!(fakeEmail === email && fakePassword === password)) return;
+
+    this.setState({ isLogin: true });
+  }
   render() {
     return (
       <fieldset>
@@ -22,7 +36,7 @@ class Login extends Component {
           <input
             className="email__input"
             type="text"
-            name="Email"
+            name="email"
             placeholder="Email"
             value={this.state.Email}
             onChange={this.handleChange.bind(this)}
@@ -31,7 +45,7 @@ class Login extends Component {
           <input
             className="password__input"
             type="password"
-            name="Password"
+            name="password"
             placeholder="Password"
             value={this.state.Password}
             onChange={this.handleChange.bind(this)}
@@ -40,8 +54,7 @@ class Login extends Component {
           <button className="submit__button">Log In</button>
           <br />
           <button className="submit__button">
-            <Link className="submit__button" to={{ pathname: "/signup" }}>
-              {" "}
+            <Link className="submit__button" to="/signup">
               Sign Up
             </Link>
           </button>
