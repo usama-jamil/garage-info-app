@@ -6,6 +6,7 @@
   "dependencies": {
     "firebase": "^5.8.2",
     "gh-pages": "^2.0.1",
+    "prop-types": "^15.6.2",
     "react": "^16.7.0",
     "react-dom": "^16.7.0",
     "react-redux-firebase": "^2.2.6",
