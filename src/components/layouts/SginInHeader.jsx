@@ -4,14 +4,14 @@ import { Link } from "react-router-dom";
 const SginInHeader = () => {
   return (
     <div className="login__button">
-      <Link className="login__link" to={{ pathname: "/login" }}>
+      <Link className="login__link" to={{ pathname: "/" }}>
         Log Out
       </Link>
       <div>
-        <button className="" style={notificationButton}>
+        <button className="notfication" style={notificationButton}>
           Notify
         </button>
-        <button className="" style={notificationButton}>
+        <button className="userId" style={notificationButton}>
           US
         </button>
       </div>

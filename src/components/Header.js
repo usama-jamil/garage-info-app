@@ -11,7 +11,7 @@ const Header = () => (
       </Link>
     </h1>
     <SginOutHeader />
-    <SginInHeader />
+    {/* <SginInHeader /> */}
   </header>
 );
 export default Header;
