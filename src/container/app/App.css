@@ -32,10 +32,10 @@
 
 .login__button a{
   background-color: #ff1010ba;
-  padding: 11px 49px;
+  padding: 10px 20px;
   text-decoration: none;
   color: #fff;
-  border-radius: 2%;
+  border-radius: 50%;
 }
 
 

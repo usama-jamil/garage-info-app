@@ -5,8 +5,10 @@ import App from "../container/app/App";
 import Recipe from "./Recipe";
 import Login from "./Auth/Login";
 import SignUp from "./Auth/SignUp";
-import PublicGaragePage from "./PublicGaragePage";
-import UserGaragePage from "./UserGaragePage";
+
+
+import PublicGaragePage from "../container/garagePage/PublicGaragePage";
+import UserGaragePage from "../container/garagePage/UserGaragePage";
 
 const Router = () => (
   <BrowserRouter>
