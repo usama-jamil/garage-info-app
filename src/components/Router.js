@@ -30,7 +30,7 @@ const GaragePageRoute = ({ path, loginUser, ...rest }) => (
   <Route
     {...rest}
     render={props =>
-      loginUser === "loginuser" ? ( // Make logic for login user  access their own page  it get more detail then public user
+      loginUser === "loginuse" ? ( // Make logic for login user  access their own page  it get more detail then public user
         <UserGaragePage {...props} />
       ) : (
         <PublicGaragePage {...props} />

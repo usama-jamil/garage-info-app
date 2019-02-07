@@ -1,4 +1,10 @@
-const initialState = {};
+const initialState = {
+    id:5,
+    garageName:"ali's garage",
+    logoImg:"some image url",
+    location:"faisalabad madina town",
+    rating:3.5
+};
 
 
 //this function holds tha  all  actions  related to the  auth
