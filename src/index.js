@@ -4,16 +4,18 @@ import "./index.css";
 import * as serviceWorker from "./serviceWorker";
 import Router from "./components/Router";
 
-import { createStore } from "redux";
+import { createStore , applyMiddleware } from "redux";
 //Simply importing config file of firebase
 import "./config";
 //that  object  hold all the  reducer in the app
 import rootReducer from "./store/reducers/rootReducer";
 //Provider is use for bind the store to react
 import { Provider } from "react-redux";
+//this is  a middle ware to  run async call through  this
+import thunk  from "redux-thunk"
 
 //here  you pass object of reducer that manage by createStore
-const store = createStore(rootReducer);
+const store = createStore(rootReducer, applyMiddleware(thunk));
 
 ReactDOM.render(
   <Provider store={store}>
