@@ -4,9 +4,12 @@ import "./index.css";
 import * as serviceWorker from "./serviceWorker";
 import Router from "./components/Router";
 
-import { createStore , applyMiddleware } from "redux";
+
 //Simply importing config file of firebase
 import "./config";
+
+
+import { createStore , applyMiddleware } from "redux";
 //that  object  hold all the  reducer in the app
 import rootReducer from "./store/reducers/rootReducer";
 //Provider is use for bind the store to react

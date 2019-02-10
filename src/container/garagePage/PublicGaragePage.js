@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-
 // this higer oreder component is use to connect that component to the redux store
 import { connect } from "react-redux";
 
