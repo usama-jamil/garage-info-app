@@ -12,8 +12,13 @@ const initialState = {
 
 const garagePageReducer = (state = initialState, action) => {
   switch (action.type) {
-    case "UPDATE_GARAGE_PAGE":
-      break;
+    case "ADD_GARAGE_PAGE":
+    console.log(action.garegePage);
+      return state;
+
+    case "ADD_GARAGE_PAGE_ERROR":
+    console.log(action.error);
+      return state;
 
     default:
       return state;

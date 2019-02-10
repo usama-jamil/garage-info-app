@@ -5,7 +5,7 @@ import * as serviceWorker from "./serviceWorker";
 import Router from "./components/Router";
 
 //Simply importing config file of firebase
-import {fbConfig} from "./config/fbConfig";
+import fbConfig from './config/fbConfig'
 
 import { createStore, applyMiddleware, compose } from "redux";
 //that  object  hold all the  reducer in the app
