@@ -4,10 +4,18 @@ import { connect } from "react-redux";
 import { updateGaragePage } from "../../store/actions/garagePageActions";
 
 class UpdateGaragePage extends Component {
+  state = {};
   handleChange(event) {
     this.setState({ [event.target.name]: event.target.value });
   }
   validate() {}
+
+  handleSubmit(e) {
+    e.preventDafault();
+    //this get the updated page from state
+    //update this  on cloud by this function  that dispatach an action to reducer
+    this.props.updateGaragePage(this.state);
+  }
   render() {
     //we  get id from the route  and use that  id to  extract data from database
     const { garageName, logoImg, location, rating } = this.props.garagePage;
@@ -16,10 +24,13 @@ class UpdateGaragePage extends Component {
   }
 }
 
-const mapDispatchToProps =(dispatch)=>{
-    return{
-updateGaragePage: (garegePage)=> dispatch(updateGaragePage(garegePage))
-    }
-}
+const mapDispatchToProps = dispatch => {
+  return {
+    updateGaragePage: garegePage => dispatch(updateGaragePage(garegePage))
+  };
+};
 
-export default connect()(UpdateGaragePage);
+export default connect(
+  null,
+  mapDispatchToProps
+)(UpdateGaragePage);

@@ -1,8 +1,10 @@
 // This separate configuration file
-import * as firebase from "firebase";
+import firebase from "firebase/app";
+import "firebase/firestore";
+import "firebase/auth";
 
 // Initialize Firebase
-var config = {
+const fbConfig = {
   apiKey: "AIzaSyDtGR3GDiBN69oMDVWmHOonckkTr2ZLpj4",
   authDomain: "garage-info.firebaseapp.com",
   databaseURL: "https://garage-info.firebaseio.com",
@@ -10,4 +12,6 @@ var config = {
   storageBucket: "garage-info.appspot.com",
   messagingSenderId: "263195183929"
 };
-firebase.initializeApp(config);
+firebase.initializeApp(fbConfig);
+
+export default fbConfig;
