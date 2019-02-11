@@ -5,12 +5,14 @@ import { combineReducers } from "redux";
 import garagePageReducer from "./garagePageReducer";
 import authReducer from "./authReducer";
 import userReducer from "./userReducer";
+import { firestoreReducer } from "react-redux-firebase";
 
 // this file  holds all the reducer we  made
 const rootReducer = combineReducers({
   authReducer,
   garagePageReducer,
-  userReducer
+  userReducer,
+  firestoreReducer
 });
 
 export default rootReducer;

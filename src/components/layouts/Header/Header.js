@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import SginInHeader from "./layouts/SginInHeader";
-import SginOutHeader from "./layouts/SginOutHeader";
+import SginInHeader from "../layouts/SginInHeader";
+import SginOutHeader from "../layouts/SginOutHeader";
 
 const Header = () => (
   <header className="App-header">

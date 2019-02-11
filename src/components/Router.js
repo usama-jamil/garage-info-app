@@ -3,12 +3,12 @@ import { BrowserRouter, Route, Switch } from "react-router-dom";
 
 import App from "../container/app/App";
 import Recipe from "./Recipe";
-import Login from "./Auth/Login";
-import SignUp from "./Auth/SignUp";
+import Login from "./Auth/Login/Login";
+import SignUp from "./Auth/SignUp/SignUp";
 
 import PublicGaragePage from "../container/garagePage/PublicGaragePage";
 import UserGaragePage from "../container/garagePage/UserGaragePage";
-import Header from "../components/Header";
+import Header from "./Header/Header";
 
 const Router = () => (
   <BrowserRouter>

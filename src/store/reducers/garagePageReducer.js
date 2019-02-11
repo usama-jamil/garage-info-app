@@ -13,6 +13,7 @@ const initialState = {
 const garagePageReducer = (state = initialState, action) => {
   switch (action.type) {
     case "ADD_GARAGE_PAGE":
+    
     console.log(action.garegePage);
       return state;
 

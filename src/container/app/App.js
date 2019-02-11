@@ -2,8 +2,8 @@ import React, { Component } from "react";
 import "./App.css";
 
 import Recipes from "../../components/Recipes";
-import Header from "../../components/Header";
-import Search from "../../components/layouts/Search";
+import Header from "../../components/Header/Header";
+import Search from "../../components/layouts/Search/Search";
 
 const API_KEY = "a05665efd3aff1fb699c986be7b0cc12";
 class App extends Component {
