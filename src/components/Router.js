@@ -8,7 +8,7 @@ import SignUp from "./Auth/SignUp/SignUp";
 
 import PublicGaragePage from "../container/garagePage/PublicGaragePage";
 import UserGaragePage from "../container/garagePage/UserGaragePage";
-import Header from "./Header/Header";
+import Header from "./layouts/Header/Header";
 
 const Router = () => (
   <BrowserRouter>
